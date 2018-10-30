@@ -5,7 +5,7 @@ const hat = new Audio('hat.wav');
 const playKick = () => {
   kick.play();
   setTimeout(playKick, 1000);
-}
+};
 
 const playSnare = () => {
   snare.play();
@@ -21,4 +21,4 @@ const play = () => {
   playHat();
   playKick();
   setTimeout(playSnare, 500);
-}
+};
