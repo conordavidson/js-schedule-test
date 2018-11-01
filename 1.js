@@ -17,7 +17,7 @@ const playHat = () => {
   setTimeout(playHat, 250);
 };
 
-const play = () => {
+const play1 = () => {
   playHat();
   playKick();
   setTimeout(playSnare, 500);
